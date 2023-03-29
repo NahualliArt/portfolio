@@ -1,0 +1,201 @@
+
+@media (max-width: 600px) {
+
+/*Header styles*/
+    .header {
+        padding: 5px;
+        width: 90%;
+        margin: auto;
+        .header-content {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        .menuLinks {
+            display: none;
+        }
+        .actions-header{
+            display: flex;
+            align-items: center;
+            .select-translate{
+            padding: 5%;
+            border-radius: 5%;
+            margin: 0 5%;
+            width: 70px;
+            }
+        }
+        }
+    }
+/*Home styles*/
+    .home{
+        .hero{
+         text-align: center;
+         h1{
+           font-size: 6vh;
+         }
+         .hero-dis{
+           height: 50vh;
+           h4{
+              font-size: 18px;
+           }
+           button{
+              padding: 12px 22px;
+              font-size: 14px;
+           }
+         }
+        }
+        .welcome{
+           display: flex;
+           flex-flow: column wrap;
+           .welcome-text{
+              width: 70vw;
+              text-align: center;
+           }
+        }
+     
+        .text-anima{
+           .animation-text{
+              h2{
+                 font-size: 8vh;
+              }
+              @keyframes marquee {
+                 0% {
+                   transform: translate3d(0, 0, 0);
+                 }
+                 100% {
+                   transform: translate3d(-50%, 0, 0);
+                 }
+               }
+           }
+        }
+     
+        .work-section{
+           .section{
+              display: flex;
+              flex-flow: column wrap;
+              gap: 4px;
+              .work-card{
+                 width: 80%;
+                 padding: 3%;
+                 margin: 4% 0 0 0;
+                 h4{
+                    font-size: 25px;
+                 }
+                 p{
+                    font-size: 16px;
+                    padding: 2% 5%;
+                 }
+              }
+           }
+        }
+     
+        .team-section{
+           display: flex;
+           flex-flow: column-reverse wrap;
+           padding: 0;
+           margin: auto;
+           .members{
+              display: flex;
+              padding: 20px;
+              gap: 10px;
+              img{
+                 width: 130px;
+                 height: auto;
+                 margin: -30% 0 0 0;
+              }
+              .member-card{
+                 text-align: center;
+                 width: 180px;
+                 height: 250px;
+                 padding: 20px;
+                 background-color: #F5F5F5;
+                 box-shadow: 6px 4px 33px rgba(0, 0, 0, 0.2);
+                 border-radius: 12px;
+              }
+           }
+           .team-text{
+              width: 70vw;
+              margin: 20px 0;
+              text-align: center;
+           }
+        }
+     
+        .ctaSection{
+           display: flex;
+           flex-flow: column wrap;
+           justify-content: center;
+           gap: 10px;
+           padding: 6% 10%;
+           .ctaText{
+              width: 80vw;
+              text-align: center;
+           }
+        }
+    }
+
+/*Slider HOME styles*/
+
+    .buttons-slides{
+        .sliderBg{
+            display: flex;
+            flex-flow: column wrap;
+            gap: 30px;
+            .projectText{
+                align-items: center;
+                text-align: center;
+                h3{
+                font-weight: 300;
+                font-size: 30px;
+                }
+                button{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+/*ANIMATIONS HOME styles*/
+    .heroImg{
+        img{
+            width: 650px !important;
+            height: auto;
+            margin-top: -80% !important;
+            margin-left: -30% !important;
+            margin-bottom: 10%;
+            z-index: -1;
+        }
+    }
+
+    .welcomeImg{
+        align-self: flex-end;
+        margin: 60% -10% 0 0 !important;
+        img{
+            width: 80vw !important;
+        }
+    }
+
+    .footerImg{
+        align-self: center !important;
+        img{
+            width: 40vw !important;
+            margin-top: 0 !important;
+        }
+    }
+
+/*Footer styles*/
+    footer{
+        h1{
+            font-size: 10vh !important;
+            margin: 3% !important;
+        }
+        .bottomSect{
+            height: 80px !important;
+            margin: -80px 0 0 0;
+            padding: 2%;
+        }
+    }
+
+}
+
+
+
+  

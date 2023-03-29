@@ -2,8 +2,10 @@
 import { useState } from 'react';
 import { useContext } from 'react';
 import { ThemeContext } from '../components/context/theme-context';
-import '../styles/home.scss';
 import { useTranslation } from 'react-i18next';
+//Styles
+import '../styles/home.scss';
+import '../styles/responsive.scss';
 //Gifs
 import Hero from './animations/Hero';
 import Welcome from './animations/Welcome';

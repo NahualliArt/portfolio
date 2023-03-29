@@ -1,6 +1,7 @@
 
 import { Component, useContext } from 'react';
 import '../../styles/Animations.scss'
+import '../../styles/responsive.scss'
 
 import React from "react";
 //animations
