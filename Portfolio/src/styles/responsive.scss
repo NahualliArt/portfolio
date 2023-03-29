@@ -1,3 +1,4 @@
+@import './App.scss';
 
 @media (max-width: 600px) {
 
@@ -11,7 +12,22 @@
         justify-content: flex-end;
         align-items: flex-end;
         .menuLinks {
-            display: none;
+            ul a{
+                display: none;
+            }
+
+            ul a:first-of-type{
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 0;
+                /*MOBILE STYLE*/
+                background-color: #EA0000;
+                height: calc(25px + 2%);
+                padding: 10px;
+                color:var (--colorText);
+                border-radius: 10% 30% 50% 70%;
+            }
         }
         .actions-header{
             display: flex;

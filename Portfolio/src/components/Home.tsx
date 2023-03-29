@@ -12,6 +12,7 @@ import Welcome from './animations/Welcome';
 import Footer from './animations/FooterAnima';
 //Scroll';
 import Slider from './home-projects-slider/ScrollMenu';
+import ScrollToTop from "react-scroll-to-top";
 //images
 import welcomeImg from '../assets/asset1.png';
 import uiuxImg from '../assets/uiux.png';
@@ -133,6 +134,8 @@ function Home() {
             <Footer/>
         </div>
 
+        {/* SCROLL TO TOP */}
+        <ScrollToTop/>
     </div>    
     </>
   );
