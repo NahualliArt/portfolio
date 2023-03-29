@@ -56,11 +56,11 @@ function Header() {
       <div className="header-content">
         <div  className="menuLinks">
           <ul>
-            <Link to={'/'}><li>Welcome</li></Link>
-            <Link to={'/#work'}><li>Work</li></Link>
-            <Link to={'/#team'}><li>Team</li></Link>
-            <Link to={'/#projects'}><li>Projects</li></Link>
-            <Link to={'/#contact'}><li>Contact</li></Link>
+            <Link to={'/'}><li>{t("navbar.welcome")}</li></Link>
+            <Link to={'/#work'}><li>{t("navbar.services")}</li></Link>
+            <Link to={'/#team'}><li>{t("navbar.team")}</li></Link>
+            <Link to={'/#projects'}><li>{t("navbar.projects")}</li></Link>
+            <Link to={'/#contact'}><li>{t("navbar.contact")}</li></Link>
           </ul>
         </div>
         

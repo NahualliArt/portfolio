@@ -1,5 +1,12 @@
 {
     "test-text" : "Light/Dark mode app",
+    "navbar" : {
+        "welcome" : "Welcome",
+        "services" : "Services",
+        "team" : "Team",
+        "projects" : "Projects",
+        "contact" : "Contact"
+    },
     "home" : {
         "hero" : "Crafting intuitive and aesthetically pleasing digital experiences",
         "button-intro" : "Go down!",

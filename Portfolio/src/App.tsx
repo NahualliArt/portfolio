@@ -1,5 +1,6 @@
 import { useState} from 'react';
 import { ThemeContext } from './components/context/theme-context';
+import './i18next.tsx';
 import Header from './components/Header';
 import Home from './components/Home';
 import Construccion from './components/errors/Construccion'; //Pagina de mantenimiento

@@ -1,5 +1,12 @@
 {
     "test-text" : "App con modo Brillante/Oscuro",
+    "navbar" : {
+        "welcome" : "Inicio",
+        "services" : "Servicios",
+        "team" : "Equipo",
+        "projects" : "Projectos",
+        "contact" : "Contacto"
+    },
     "home" : {
         "hero" : "Creamos experiencias digitales intuitivas y estéticamente agradables",
         "button-intro" : "Ve abajo!",
