@@ -1,5 +1,5 @@
 import { useState} from 'react';
-import { ThemeContext } from './contexts/theme-context';
+import { ThemeContext } from './components/context/theme-context';
 import Header from './components/Header';
 import Home from './components/Home';
 import Construccion from './components/errors/Construccion'; //Pagina de mantenimiento
