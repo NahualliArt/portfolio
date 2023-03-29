@@ -111,5 +111,10 @@
             "product" : "What is the new with the service of this garage? Well, if you are a Harley Davidson owner you can find at Moto Arte Garage a specific service for this brand, from easy things as a regular oil change, and chain or belt lubrication to something more specific like customization of your motorcycle. Everything with a first-hand attention with expert mechanic in charge of the workshop. The only thing clients need to remember it's to make an appointment before to visit!",
             "sol" : "The garage needed something practical but professional, and the decision was made to build the website using WordPress due to its user-friendly interface and accessibility. The focus of the design is on simplicity and cleanliness, with a strong emphasis on easy-to-read font styles, minimal text, and a limited number of images. The goal was to create a design that is easy to navigate and draws attention to the most important elements, such as the reservation buttons and direct communication options, such as WhatsApp and Messenger. The goal was that this approach will result in a website that is visually appealing and provides an exceptional user experience for visitors."
         }
+    },
+
+    "errors" : {
+        "cooming" : "Coming Soon!",
+        "404" : "You're lost :("
     }
 }

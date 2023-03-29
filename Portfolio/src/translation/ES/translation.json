@@ -109,5 +109,10 @@
             "product" : "¿Cuál es la novedad con el servicio de este taller? Pues bien, si eres propietario de una Harley Davidson puedes encontrar en el taller Moto Arte Garage un servicio específico para esta marca, desde cosas tan sencillas como un cambio de aceite periódico, y engrase de cadena o correa hasta algo más específico como la personalización de tu moto. Todo con una atención de primera mano con el experto mecánico encargado del taller. ¡Lo único que los clientes deben recordar es que hay que concertar cita previa!",
             "sol" : "El taller necesitaba algo práctico pero profesional, y se decidió crear el sitio web con WordPress por su interfaz fácil de usar y su accesibilidad. El diseño se centra en la sencillez y la limpieza, con especial énfasis en estilos de fuente fáciles de leer, texto mínimo y un número limitado de imágenes. El objetivo era crear un diseño por el que fuera fácil navegar y que llamara la atención sobre los elementos más importantes, como los botones de reserva y las opciones de comunicación directa, como WhatsApp y Messenger. El objetivo era que este enfoque diera como resultado un sitio web visualmente atractivo y que ofreciera una experiencia de usuario excepcional a los visitantes."
         }
+    },
+
+    "errors" : {
+        "cooming" : "Estamos trabajando!",
+        "404" : "Te perdiste :("
     }
 }
