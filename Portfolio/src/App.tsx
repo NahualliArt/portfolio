@@ -20,6 +20,8 @@ export default function App(): JSX.Element {
           <Header/>
           <Routes>
             <Route path="" element={<Home/>}/>
+            <Route path='/errors/Construccion' element={<Construccion/>}/>
+            <Route path='*' element={<Error/>}/>
           </Routes>
           <Footer/>
         </BrowserRouter>
