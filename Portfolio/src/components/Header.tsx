@@ -51,17 +51,6 @@ function Header() {
     }
   }
   
-
-  //const { theme, setTheme } = useContext(ThemeContext);
-
-  //const handleThemeChange = () => {
-
-   // const isCurrentDark = theme === 'dark';
-    //setTheme(isCurrentDark ? 'light' : 'dark');
-    //localStorage.setItem('theme', isCurrentDark ? 'light' : 'dark');
-
-  //};  
-  
   return (
     <header className="header">
       <div className="header-content">

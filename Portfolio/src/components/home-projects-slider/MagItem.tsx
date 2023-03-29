@@ -1,5 +1,5 @@
 import React from 'react';
-import Slider from 'react-slick';
+//import Slider from 'react-slick';
 import { HashLink as Link } from 'react-router-hash-link';
 import '../../styles/slider.scss'
 
@@ -11,7 +11,9 @@ function MagItem() {
                 <h3>Moto Arte Garage</h3>
                 <p>Lorem ipsum dolor sit amet consectetur. Euismod a id neque felis aliquam maecenas dictum. Pellentesque sit arcu in etiam sapien tempor vitae non et. Lectus dictum velit integer eu auctor sollicitudin molestie pellentesque. Id commodo tortor sapien pharetra in tincidunt eu.</p>
 
-                <Link to={'../errors/Construccion'}>See More</Link>
+                <Link to={'../errors/Construccion'}>
+                    <button>See More</button>
+                </Link>
                                 
             </div>
             <div className='projectImg'>

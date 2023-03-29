@@ -9,7 +9,7 @@ import Hero from './animations/Hero';
 import Welcome from './animations/Welcome';
 import Footer from './animations/FooterAnima';
 //import { ScrollMenu } from '../ScrollMenu';
-//import Slider from './home-projects-slider/ScrollMenu';
+import Slider from './home-projects-slider/ScrollMenu';
 
 
 //images
