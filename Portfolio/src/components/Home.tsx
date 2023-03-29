@@ -1,7 +1,7 @@
 // home.tsx
 import { useState } from 'react';
 import { useContext } from 'react';
-import { ThemeContext } from '../contexts/theme-context';
+import { ThemeContext } from '../components/context/theme-context';
 import '../styles/home.scss';
 import { useTranslation } from 'react-i18next';
 //Gifs
