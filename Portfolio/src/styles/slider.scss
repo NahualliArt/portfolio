@@ -29,12 +29,29 @@
         justify-content: center;
         align-items: center;
         gap: 40px;
+
         .projectText{
             padding: 0 0 0 6%;
             color: #f5f5f5; 
+            width: 45%;
             h3{
                font-weight: 300;
-               font-size: 30px;
+               font-size: 45px;
+               margin-bottom: 20px;
+            }
+            .chip{
+                display: flex;
+                flex-flow: row wrap;
+                width: 200px;
+                p{
+                    padding: 6px 12px;
+                    font-size: 11px;
+                    color: #333;
+                    background: #DCDCDC;
+                    margin: 6px 2px;
+                    border-radius: 12px;
+                    font-style: italic;
+                }
             }
             button{
                 background-color: #EA0000;
@@ -52,9 +69,13 @@
 
         .projectImg{
             width: inherit;
-            img{
-                width: 100%;
-                height: auto;
+            .smallImages{
+                display: flex;
+                img{
+                    width: 65%;
+                    border-radius: 20px;
+                    margin: 12px;
+                }
             }
         }
     }

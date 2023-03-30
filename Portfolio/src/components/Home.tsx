@@ -10,7 +10,7 @@ import '../styles/responsive.scss';
 import Hero from './animations/Hero';
 import Welcome from './animations/Welcome';
 import Footer from './animations/FooterAnima';
-//Scroll';
+//Scroll;
 import Slider from './home-projects-slider/ScrollMenu';
 import ScrollToTop from "react-scroll-to-top";
 //images
@@ -21,6 +21,7 @@ import graphicImg from '../assets/graphic.png';
 import illustraImg from '../assets/ilustra.png';
 import abiPic from '../assets/abi.png';
 import kitPic from '../assets/kitzia.png';
+import ausiPic from '../assets/ausi.png';
 
 function Home() {
 
@@ -59,7 +60,8 @@ function Home() {
         <div id="welcome" className='welcome'>
             <div className='welcome-text'>
                 <h2>{t("home.welcome")}</h2>
-                <p>{t("home.intro")}</p>
+                <p>{t("home.intro.1")}</p>
+                <p>{t("home.intro.2")}</p>
             </div>
               <Welcome/>
         </div>
@@ -101,15 +103,24 @@ function Home() {
         {/* TEAM */}
         <div id="team" className='team-section'>
             <div className='members'>
-                <div className='member-card'>
-                    <img src={abiPic} alt="A draw of Abigail P"/>
-                    <h3>Abigail P</h3>
-                    <p>{t("home.team.sandra-text")}</p>
+                <div className='members-line'>
+                    <div className='member-card'>
+                        <img src={abiPic} alt="A draw of Abigail P"/>
+                        <h3>Abigail P</h3>
+                        <p>{t("home.team.sandra-text")}</p>
+                    </div>
+                    <div className='member-card'>
+                        <img src={ausiPic} alt="A draw of Aurora R"/>
+                        <h3>Aurora R</h3>
+                        <p>{t("home.team.ausi-text")}</p>
+                    </div>
                 </div>
-                <div className='member-card'>
-                    <img src={kitPic} alt="A draw of Kitzia P"/>
-                    <h3>Kitzia P</h3>
-                    <p>{t("home.team.kitzia-text")}</p>
+                <div className='members-line'>
+                    <div className='member-card'>
+                        <img src={kitPic} alt="A draw of Kitzia P"/>
+                        <h3>Kitzia P</h3>
+                        <p>{t("home.team.kitzia-text")}</p>
+                    </div>
                 </div>
             </div>
 

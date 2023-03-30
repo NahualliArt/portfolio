@@ -11,7 +11,8 @@
         "hero" : "Crafting intuitive and aesthetically pleasing digital experiences",
         "button-intro" : "Go down!",
         "welcome" : "Welcome to ",
-        "intro" : "A full-service digital visual design agency where creativity meets functionality. Our team craft visually stunning and user-centered experiences for websites, mobile apps, and digital products. Let's partner to bring your vision to life and leave a lasting impact on your audience.",
+        "intro.1" : "A full-service digital visual design agency where creativity meets functionality. Our team craft visually stunning and user-centered experiences for websites, mobile apps, and digital products. Let's partner to bring your vision to life and leave a lasting impact on your audience.",
+        "intro.2" : "By working with us, you can rest assured that you will receive a fresh and ingenious approach to every project. We are committed to delivering exceptional service and meeting your needs with unique solutions that only a team like ours can provide. Additionally, our company is committed to inclusion and diversity, and we strive to create a work environment where everyone can thrive and contribute with their unique experience and skills.",
         "work": {
             "ui-design" : "UI Design",
             "ui-text" : "UI design service for agencies, specializing in crafting elegant & functional interfaces for web/mobile apps. Elevating user experiences.",
@@ -25,55 +26,49 @@
         "team" : {
             "sandra-text" : "Head designer, UI designer and freelancer",
             "kitzia-text" : "Front-end web designer and freelancer",
+            "ausi-text" : "Management y customer support",
             "title" : "The team",
-            "text" : "We specialize in providing web design solutions focused on UI design, illustration and graphic design. Our diverse skills and passion for design allow us to bring your vision to life and create a visually stunning online presence that engages and converts your audience. Let us elevate your brand through creativity and strategic design."
+            "text" : "We're a diverse team of individuals with autism and disabilities. Rather than seeing our differences as a weakness, we turn them into a strength. We take pride in our unique perspectives and alternative, creative, and lateral thinking, which allow us to approach issues from unconventional angles. We differentiate ourselves by our ability to find innovative solutions to business challenges and real-world problems."
         },
         "cta" : {
             "title" : "Let's talk!",
-            "text" : "Connect with us! Our contact section is your gateway to professional design services. Submit your project inquiry, ask questions, or just say hello. We're here to help and can't wait to hear from you."
+            "text" : "If you are looking for a company that offers you unique perspectives and original solutions, you have come to the right place!. Contact us today to discuss how we can help you achieve your business and/or personal goals."
         } 
     },
 
     "sliders-projects" : {
+            "see-more" : "See More",
             "mag-slider" : {
-                "header" : "Moto Arte Garage",
-                "text" : "How about a website for a Harley-Davidson workshop? Well here it is, the main problem was communication with new customers who want to know where the workshop is, what the workshop does and when they can visit it. A perfect example of web design implemented with wordpress.",
-                "button" : "See More"
+                "text" : "How about a website for a Harley-Davidson workshop? Well here it is, the main problem was communication with new customers who want to know where the workshop is, what the workshop does and when they can visit it. A perfect example of web design implemented with wordpress."  
             },
             "gdp-slider" : {
-                "header" : "Guba Doce Pares Mexico",
-                "text" : "We also can make a website with web design with React! How about a website for a martial arts group? Website designed for a clan of authentic Filipino Eskrima-Kali-Arnis practitioners, to meet them and know where and how to find them.",
-                "button" : "See More"
+                "text" : "We also can make a website with web design with React! How about a website for a martial arts group? Website designed for a clan of authentic Filipino Eskrima-Kali-Arnis practitioners, to meet them and know where and how to find them."
+                
             },
             "bombilla-slider" : {
-                "header" : "Bombilla Iluminarte",
                 "text" : "Blog design for scientific and artistic divulgation. Designed in Figma, implemented with WordPress, Bombilla Iluminarte offers the public an approach to science and art, from an attractive approach.",
                 "button" : "See More"
             },
             "ximet-slider" : {
-                "header" : "Ximet",
-                "text" : "A simply yet beautiful website for a clinic research company, starting with Figma, and implemented with WordPress",
-                "button" : "See More"
+                "text" : "A simply yet beautiful website for a clinic research company, starting with Figma, and implemented with WordPress"
+               
             },
             "casa-huichol-slider" : {
-                "header" : "Casa Huichol",
                 "text" : "Website designed for a health charity organization that provides shelter and medical care to indigenous wixaritari communities in Jalisco, MX. This is a beautiful web design implemented with wordpress.",
                 "button" : "See More"
             },
             "bizbud-slider" : {
-                "header" : "Bizbud",
-                "text" : "We can apply everything on one website! Bizbud wanted to offer more benefits to their users through their BTHC Early Mint Pass, they needed the whole concept art, and web pages. Design of the NFTs characters, illustrations, scenarios, GIFs, web design, and campaign branding.",
-                "button" : "See More"
+                "text" : "We can apply everything on one website! Bizbud wanted to offer more benefits to their users through their BTHC Early Mint Pass, they needed the whole concept art, and web pages. Design of the NFTs characters, illustrations, scenarios, GIFs, web design, and campaign branding."
+                
             },
             "bthc-slider" : {
-                "header" : "BTHC",
-                "text" : "We can apply it all in one website! BTHC wanted to offer more benefits to their users, they needed all the concept art, and web pages. NFTs character design, illustrations, scenarios, GIFs, web design, and campaign branding.",
-                "button" : "See More"
+                "text" : "We can apply it all in one website! BTHC wanted to offer more benefits to their users, they needed all the concept art, and web pages. NFTs character design, illustrations, scenarios, GIFs, web design, and campaign branding."
+                
             },
             "brawler-slider" : {
                 "header" : "Brawler T-Shirts Logo Design",
-                "text" : "Beautiful custom logo for a t-shirt brand focused on martial arts. You can elevate your brand with a custom design. We create a unique and memorable symbol that represents the values and personality of your store. Stand out with a professional logo today!",
-                "button" : "See More"
+                "text" : "Beautiful custom logo for a t-shirt brand focused on martial arts. You can elevate your brand with a custom design. We create a unique and memorable symbol that represents the values and personality of your store. Stand out with a professional logo today!"
+                
             },
             "caliope-slider" : {
                 "header" : "Caliope Logo Design",
@@ -81,24 +76,21 @@
                 "button" : "See More"
             },
             "chilanguerias-slider" : {
-                "header" : "Chilanguerias",
-                "text" : "Chilanguerias needed their clothing store to stand out with custom illustrations. Our team creates eye-catching designs for your website and advertising materials. Give your brand a unique personality and appeal with custom illustrations!",
-                "button" : "See More"
+                "text" : "Chilanguerias needed their clothing store to stand out with custom illustrations. Our team creates eye-catching designs for your website and advertising materials. Give your brand a unique personality and appeal with custom illustrations!"
+                
             },
             "yaquiYoreme-slider" : {
-                "header" : "Comunidad Yaqui Yoreme",
-                "text" : "We can bring the richness and beauty of your community to life with our custom illustration designs. Our expert design team crafts visually stunning pieces that proudly showcase your unique history and traditions. Let us tell your story in a vivid, captivating way.",
-                "button" : "See More"
+                "header" : "Yaqui Yoreme Comunity",
+                "text" : "We can bring the richness and beauty of your community to life with our custom illustration designs. Our expert design team crafts visually stunning pieces that proudly showcase your unique history and traditions. Let us tell your story in a vivid, captivating way."
             },
             "helenafc-slider" : {
-                "header" : "Helena Fernandez-Cavada",
-                "text" : "For Helena we create a beautiful and elegant portfolio, we know how to make a Cargo friendly website, streamline your business with a professional website design. Our team creates custom websites that enhance the customer experience and drive online growth.",
-                "button" : "See More"
+                "text" : "For Helena we create a beautiful and elegant portfolio, we know how to make a Cargo friendly website, streamline your business with a professional website design. Our team creates custom websites that enhance the customer experience and drive online growth."
+                
             },
             "driirp-slider" : {
                 "header" : "Deep Roots Institute",
-                "text" : "We can transcend web design from Figma to reality with Skuarespace. Here is Deep Roots Institute, a minimalist yet sophisticated website that empowers you to make a positive impact on the environment by becoming a part of a vibrant community. You can unlock boundless opportunities!",
-                "button" : "See More"
+                "text" : "We can transcend web design from Figma to reality with Skuarespace. Here is Deep Roots Institute, a minimalist yet sophisticated website that empowers you to make a positive impact on the environment by becoming a part of a vibrant community. You can unlock boundless opportunities!"
+                
             }
     },
 
