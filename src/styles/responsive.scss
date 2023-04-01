@@ -43,6 +43,7 @@
     }
 /*Home styles*/
     .home{
+        overflow-x: hidden;
         .hero{
          text-align: center;
          h1{
@@ -69,6 +70,7 @@
         }
      
         .text-anima{
+            overflow-x: hidden;
            .animation-text{
               h2{
                  font-size: 8vh;
@@ -109,18 +111,19 @@
            flex-flow: column-reverse wrap;
            padding: 0;
            margin: auto;
+           overflow-x: hidden;
            .members{
               display: flex;
               padding: 20px;
               gap: 10px;
               img{
-                 width: 130px;
+                 width: 110px;
                  height: auto;
                  margin: -30% 0 0 0;
               }
               .member-card{
                  text-align: center;
-                 width: 180px;
+                 width: 150px;
                  height: 250px;
                  padding: 20px;
                  background-color: #F5F5F5;
@@ -141,6 +144,7 @@
            justify-content: center;
            gap: 10px;
            padding: 6% 10%;
+           overflow-x: hidden;
            .ctaText{
               width: 80vw;
               text-align: center;
@@ -155,6 +159,7 @@
             display: flex;
             flex-flow: column wrap;
             gap: 30px;
+            overflow-x: hidden;
             .projectText{
                 align-items: center;
                 text-align: center;
@@ -171,6 +176,7 @@
 
 /*ANIMATIONS HOME styles*/
     .heroImg{
+        overflow-x: hidden;
         img{
             width: 650px !important;
             height: auto;
@@ -199,6 +205,7 @@
 
 /*Footer styles*/
     footer{
+        overflow-x: hidden;
         h1{
             font-size: 10vh !important;
             margin: 3% !important;
