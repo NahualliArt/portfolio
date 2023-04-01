@@ -48,7 +48,7 @@ function Home() {
     <div className='home'>
         {/* INTRO */}
         <div className='hero'>
-            <h1>nahualli.art</h1>
+            <h1>nahualli.arts</h1>
             <div className='hero-dis'>
                 <h4>{t("home.hero")}</h4>
                 <button>{t("home.button-intro")}</button>
