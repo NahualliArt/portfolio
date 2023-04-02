@@ -181,10 +181,14 @@
 
 /*ANIMATIONS HOME styles*/
     .heroImg{
+        margin: auto;
         img{
-            width: 650px !important;
+            width: 600px !important;
             height: auto;
             z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-content: center;
         }
     }
 
