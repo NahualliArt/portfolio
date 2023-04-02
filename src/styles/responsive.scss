@@ -112,9 +112,10 @@
            padding: 0;
            margin: auto;
            overflow-x: hidden;
+           gap: 10px;
            .members{
               display: flex;
-              padding: 20px;
+              padding: 10px;
               gap: 10px;
               flex-flow: column-reverse wrap;
               .members-line{
@@ -122,12 +123,11 @@
                 .member-card{
                     width: 250px;
                     img{
-                        width: 110px;
+                        width: 150px;
                         height: auto;
                         margin: -30% 0 0 0;
-                    }
+                     }
                     text-align: center;
-                    width: 150px;
                     height: 250px;
                     padding: 20px;
                     background-color: #F5F5F5;
