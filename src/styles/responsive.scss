@@ -116,12 +116,14 @@
            .members{
               display: flex;
               padding: 10px;
-              gap: 10px;
+              gap: 40px;
+              margin-top: 40px;
               flex-flow: column-reverse wrap;
               .members-line{
                 margin: 1%;
                 .member-card{
                     width: 250px;
+                    margin-bottom: 80px;
                     img{
                         width: 150px;
                         height: auto;
@@ -168,9 +170,14 @@
             .projectText{
                 align-items: center;
                 text-align: center;
+                width: 100%;
                 h3{
                 font-weight: 300;
                 font-size: 30px;
+                }
+                .chip{
+                    align-content: center;
+                    justify-content: center;
                 }
                 button{
                     margin-top: 20px;
@@ -186,9 +193,12 @@
         align-content: center;
         position: relative;
         img{
-            width: 600px !important;
+            width: 600px!important;
             height: auto;
             z-index: 1;
+            position: absolute;
+            top: 60px;
+            left: auto;
         }
     }
 
