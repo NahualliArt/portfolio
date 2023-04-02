@@ -162,11 +162,19 @@
 /*Slider HOME styles*/
 
     .buttons-slides{
+
+        .action-move{
+            svg{
+                align-self: flex-end;
+            }
+        }
+
         .sliderBg{
             display: flex;
             flex-flow: column wrap;
             gap: 30px;
             overflow-x: hidden;
+            padding: 0;
             .projectText{
                 align-items: center;
                 text-align: center;
@@ -192,6 +200,9 @@
                 align-content: center;
                 .smallImages{
                     display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-wrap: wrap;
                     img{
                         width: 100%;
                         border-radius: 20px;
@@ -229,7 +240,7 @@
     .footerImg{
         align-self: center !important;
         img{
-            width: 40vw !important;
+            width: 50vw !important;
             margin-top: 0 !important;
         }
     }
