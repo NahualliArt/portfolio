@@ -108,5 +108,12 @@
     "errors" : {
         "cooming" : "Coming Soon!",
         "404" : "You're lost :("
+    },
+
+    "alerts" : {
+        "aterriza" : {
+            "titulo" : "We are partners",
+            "text" : "We work in community association with:"
+        }
     }
 }

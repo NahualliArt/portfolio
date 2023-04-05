@@ -96,5 +96,12 @@
     "errors" : {
         "cooming" : "Estamos trabajando!",
         "404" : "Te perdiste :("
+    },
+
+    "alerts" : {
+        "aterriza" : {
+            "titulo" : "Somos partners",
+            "text" : "Trabajamos en asociación comunitaria con:"
+        }
     }
 }
