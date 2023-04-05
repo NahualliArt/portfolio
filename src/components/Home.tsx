@@ -57,8 +57,7 @@ function Home() {
             <h1>nahualli.art</h1>
             <div className='hero-dis'>
                 <h4>{t("home.hero")}</h4>
-                <button>{t("home.button-intro")}</button>
-                <button onClick={toggle}>Open Modal</button>
+                <button onClick={toggle}>{t("home.button-intro")}</button>
                 <ModalAterriza isOpen={isOpen} toggle={toggle}>Open Modal</ModalAterriza>
             </div>
             <Hero/>
