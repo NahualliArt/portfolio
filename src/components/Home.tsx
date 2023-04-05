@@ -3,6 +3,9 @@ import { useState } from 'react';
 import { useContext } from 'react';
 import { ThemeContext } from '../components/context/theme-context';
 import { useTranslation } from 'react-i18next';
+//Modals
+import ModalAterriza from './alerts/AterrizaSocio';
+import useModal from './hooks/UseModal';
 //Styles
 import '../styles/home.scss';
 import '../styles/responsive.scss';
@@ -24,6 +27,9 @@ import kitPic from '../assets/kitzia.png';
 import ausiPic from '../assets/ausi.png';
 
 function Home() {
+
+  //Modal
+  const { isOpen, toggle } = useModal();
 
   //translator
   const { t, i18n } = useTranslation();
@@ -52,9 +58,10 @@ function Home() {
             <div className='hero-dis'>
                 <h4>{t("home.hero")}</h4>
                 <button>{t("home.button-intro")}</button>
+                <button onClick={toggle}>Open Modal</button>
+                <ModalAterriza isOpen={isOpen} toggle={toggle}>Open Modal</ModalAterriza>
             </div>
             <Hero/>
-            
         </div>
         {/* WELCOME */}
         <div id="welcome" className='welcome'>
@@ -68,8 +75,8 @@ function Home() {
         {/* TEXT DECORATION */}
         <div className='text-anima'>
             <div className="animation-text">
-                <h2>UI Design - Web Design - Illustration - Graphic Design -</h2>
-                <h2> UI Design - Web Design - Illustration - Graphic Design</h2>
+                <h2>UI Designs - Web Design - Illustration - Graphic Design -</h2>
+                <h2> UI Designs - Web Design - Illustration - Graphic Design</h2>
             </div>
         </div>
         {/* SERVICES */}

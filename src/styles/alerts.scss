@@ -1,0 +1,23 @@
+
+.overlay{
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    
+    /*ATERRIZA POPUP*/
+    .pop-up{
+        display: block;
+        width: 250px;
+        height: inherit;
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+        background: #dfe4ea;
+    }
+}
