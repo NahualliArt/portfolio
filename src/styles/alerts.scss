@@ -19,8 +19,15 @@
         width: 250px;
         height: 250px;
         margin: auto;
+        padding: 0 4%;
         text-align: center;
         background: #dfe4ea;
         border-radius: 12px;
+
+        a{
+            color: #EA0000;
+            font-weight: bold;
+            text-decoration: none;
+        }
     }
 }
