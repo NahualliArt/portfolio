@@ -25,7 +25,7 @@ export default function AterrizaSocio(props: ModalType) {
                     <div className='pop-up'>
                         <h3>{t("alerts.aterriza.titulo")}</h3>
                         <p>{t("alerts.aterriza.text")}</p>
-                        <a href="aterrizatusideas.com/" target="_blank">Aterrizatusideas.com</a>
+                        <a href="https://aterrizatusideas.com/" target="_blank">Aterrizatusideas.com</a>
                     </div>
                 </div>
             )}
