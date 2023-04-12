@@ -24,7 +24,7 @@ function MqlItem() {
                 </div>
                 <p>{t("sliders-projects.mql-slider.text")}</p>
 
-                <Link to={'https://www.masquelearning.com/'}>
+                <Link to={'https://www.masquelearning.com/'} target="_blank" rel="noopener noreferrer">
                     <button>{t("sliders-projects.see-more")}</button>
                 </Link>
                                 
