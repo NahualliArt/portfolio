@@ -4,6 +4,7 @@ import Slider from 'react-slick';
 import Item1 from './MagItem';
 import Item2 from './BizItem';
 import Item3 from './MqlItem';
+import Item4 from './HelenaItem';
 //import ItemsMap from 'react-horizontal-scrolling-menu/dist/types/ItemsMap';
 import '../../styles/slider.scss'
 
@@ -40,6 +41,7 @@ export default function App(props:any){
         {selectedIndex === 0 && <Item1/>}
         {selectedIndex === 1 && <Item2/>}
         {selectedIndex === 2 && <Item3/>}
+        {selectedIndex === 2 && <Item4/>}
      
       <button onClick={next} className='action-move'>{<RiArrowGoForwardLine className='icon'/>}</button>
 
