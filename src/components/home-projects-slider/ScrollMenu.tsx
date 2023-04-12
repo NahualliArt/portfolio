@@ -12,9 +12,9 @@ import '../../styles/slider.scss'
 import { RiArrowGoBackLine, RiArrowGoForwardLine } from "react-icons/ri";
 
 export default function App(props:any){
-  const items = ["Item1", "Item2", "Item3", "Item4", "Item5"]; //En el ejemplo aquí van el nombre de las imágenes en comillas, ej. "imagen2.jpg"
+  const items = ["Item1", "Item2", "Item3"]; //En el ejemplo aquí van el nombre de las imágenes en comillas, ej. "imagen2.jpg"
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const [SelectedItems, setSelectedItems] =useState(items[0]);
+  const [SelectedItems, setSelectedItems] = useState(items[0]);
 
   const selectNewItem = (index: number, items: string[], next = true) => {
     const condition = next ? selectedIndex < items.length : selectedIndex > 0;

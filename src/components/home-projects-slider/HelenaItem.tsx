@@ -16,7 +16,8 @@ function HelenaItem() {
         <>
         <div className='sliderBg'>
             <div className='projectText'>
-                <h3>Helena Fernández-Cavada - Artist Website</h3>
+                <h3>Helena Fernández-Cavada</h3>
+                <p>Artist Website</p>
                 <div className='chip'>
                     <p>Web Design</p>
                     <p>Cargo.site</p>

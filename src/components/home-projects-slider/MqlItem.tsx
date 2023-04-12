@@ -16,7 +16,8 @@ function MqlItem() {
         <>
         <div className='sliderBg'>
             <div className='projectText'>
-                <h3>MQL - Gamification and engagement design</h3>
+                <h3>Masquelearning</h3>
+                <p>Gamification and engagement design</p>
                 <div className='chip'>
                     <p>Web Design</p>
                     <p>WordPress</p>

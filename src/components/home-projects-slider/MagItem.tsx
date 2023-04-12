@@ -23,7 +23,7 @@ function MagItem() {
                 </div>
                 <p>{t("sliders-projects.mag-slider.text")}</p>
 
-                <Link to={'../errors/Construccion'}>
+                <Link to={'motoartegarage.com/'}>
                     <button>{t("sliders-projects.see-more")}</button>
                 </Link>
                                 
