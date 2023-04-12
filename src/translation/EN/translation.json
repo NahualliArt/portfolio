@@ -49,14 +49,6 @@
                 "text" : "Blog design for scientific and artistic divulgation. Designed in Figma, implemented with WordPress, Bombilla Iluminarte offers the public an approach to science and art, from an attractive approach.",
                 "button" : "See More"
             },
-            "ximet-slider" : {
-                "text" : "A simply yet beautiful website for a clinic research company, starting with Figma, and implemented with WordPress"
-               
-            },
-            "casa-huichol-slider" : {
-                "text" : "Website designed for a health charity organization that provides shelter and medical care to indigenous wixaritari communities in Jalisco, MX. This is a beautiful web design implemented with wordpress.",
-                "button" : "See More"
-            },
             "bizbud-slider" : {
                 "text" : "We can apply everything on one website! Bizbud wanted to offer more benefits to their users through their BTHC Early Mint Pass, they needed the whole concept art, and web pages. Design of the NFTs characters, illustrations, scenarios, GIFs, web design, and campaign branding."
                 
@@ -70,14 +62,8 @@
                 "text" : "Beautiful custom logo for a t-shirt brand focused on martial arts. You can elevate your brand with a custom design. We create a unique and memorable symbol that represents the values and personality of your store. Stand out with a professional logo today!"
                 
             },
-            "caliope-slider" : {
-                "header" : "Caliope Logo Design",
-                "text" : "Beautiful custom logo for a women's clothing brand. Elevate your brand with a custom logo design. Our team creates a unique and memorable symbol that represents your store's values and personality - stand out with a professional logo today!",
-                "button" : "See More"
-            },
-            "chilanguerias-slider" : {
-                "text" : "Chilanguerias needed their clothing store to stand out with custom illustrations. Our team creates eye-catching designs for your website and advertising materials. Give your brand a unique personality and appeal with custom illustrations!"
-                
+            "mql-slider" : {
+                "text" : "100% design concept website for a gamification agency. Development with WordPress and Elementro Pro. The concept illustrations were created using Procreate."
             },
             "yaquiYoreme-slider" : {
                 "header" : "Yaqui Yoreme Comunity",

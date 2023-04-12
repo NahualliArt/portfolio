@@ -46,12 +46,6 @@
         "bombilla-slider" : {
             "text" : "Diseño de blog de divulgación científica y artística. Diseñado en Figma, implementado con WordPress, Bombilla Iluminarte ofrece al público un acercamiento a la ciencia y el arte, desde un enfoque atractivo."
         },
-        "ximet-slider" : {
-            "text" : "Un sitio web sencillo pero hermoso para una empresa de investigación clínica, creado con Figma e implementado con WordPress."
-        },
-        "casa-huichol-slider" : {
-            "text" : "Sitio web diseñado para una organización benéfica de salud que proporciona refugio y atención médica a las comunidades indígenas wixaritari en Jalisco, MX. Este es un hermoso diseño web implementado con wordpress."
-        },
         "bizbud-slider" : {
             "text" : "¡Podemos aplicarlo todo en un solo sitio web! Bizbud quería ofrecer más beneficios a sus usuarios a través de su BTHC Early Mint Pass, necesitaban todo el concept art, y páginas web. Diseño de los personajes NFTs, ilustraciones, escenarios, GIFs, diseño web, y branding de la campaña."
         },
@@ -62,13 +56,8 @@
             "header" : "Brawler T-Shirts Diseño de Logo",
             "text" : "Hermoso logotipo personalizado para una marca de camisetas centrada en las artes marciales. Puedes elevar tu marca con un diseño personalizado. Creamos un símbolo único y memorable que representa los valores y la personalidad de tu tienda ¡destaca con un logotipo profesional hoy mismo!"
         },
-        "caliope-slider" : {
-            "header" : "Caliope Diseño de Logo",
-            "text" : "Precioso logotipo personalizado para una marca de ropa femenina. Eleve su marca con un diseño de logotipo personalizado. Nuestro equipo crea un símbolo único y memorable que representa los valores y la personalidad de tu tienda ¡destaca con un logotipo profesional hoy mismo!"
-        },
-        "chilanguerias-slider" : {
-            "header" : "Chilanguerias",
-            "text" : "Chilanguerias necesitaba que su tienda de ropa destaque con ilustraciones personalizadas. Nuestro equipo crea diseños llamativos para tu sitio web y material publicitario. ¡Dale a tu marca una personalidad y un atractivo únicos con ilustraciones personalizadas!"
+        "mql-slider" : {
+            "text" : "Un sitio 100% personalizado para una agencia de gamificación. Desarrollado en WordPress utilizando Elementro Pro. Ilustraciones creadas con Procreate."
         },
         "yaquiYoreme-slider" : {
             "header" : "Comunidad Yaqui Yoreme",

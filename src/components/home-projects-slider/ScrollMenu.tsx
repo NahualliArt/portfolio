@@ -3,6 +3,7 @@ import {useState} from 'react';
 import Slider from 'react-slick';
 import Item1 from './MagItem';
 import Item2 from './BizItem';
+import Item3 from './MqlItem';
 //import ItemsMap from 'react-horizontal-scrolling-menu/dist/types/ItemsMap';
 import '../../styles/slider.scss'
 
@@ -36,8 +37,9 @@ export default function App(props:any){
 
       <button onClick={previous} className='action-move'>{<RiArrowGoBackLine className='icon'/> }</button>
 
-      {selectedIndex === 0 && <Item1/>}
-      {selectedIndex === 1 && <Item2/>}
+        {selectedIndex === 0 && <Item1/>}
+        {selectedIndex === 1 && <Item2/>}
+        {selectedIndex === 2 && <Item3/>}
      
       <button onClick={next} className='action-move'>{<RiArrowGoForwardLine className='icon'/>}</button>
 
