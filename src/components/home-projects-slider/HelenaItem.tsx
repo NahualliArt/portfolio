@@ -23,7 +23,7 @@ function HelenaItem() {
                 </div>
                 <p>{t("sliders-projects.helenafc-slider.text")}</p>
 
-                <Link to={'https://www.masquelearning.com/'} target="_blank" rel="noopener noreferrer">
+                <Link to={'helenafc.com/'} target="_blank" rel="noopener noreferrer">
                     <button>{t("sliders-projects.see-more")}</button>
                 </Link>
                                 
