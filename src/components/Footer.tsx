@@ -57,7 +57,7 @@ function Footer() {
     <footer>
         <h3>Find more at</h3>
         <div className='socials'>
-          <Link to="https://www.tiktok.com/@nahualliart" target="_blank" rel="noopener noreferrer">
+          <Link to={'https://www.tiktok.com/@nahualliart'} target="_blank" rel="noopener noreferrer">
             <FaTiktok className='iconF'/>
           </Link>
             <FaFacebookF className='iconF'/>
