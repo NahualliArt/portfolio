@@ -66,8 +66,8 @@ function Header() {
         
         <div className='actions-header'>
           <select onChange={onClickLanguageChange} className="select-translate">
-            <option value={"en"}>ENG</option>
-            <option value={"es"}>ESP</option>
+            <option value={"es"}>ES</option>
+            <option value={"en"}>EN</option>
           </select>
 
           <div className="toggle-theme-wrapper">
