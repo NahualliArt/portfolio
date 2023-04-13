@@ -11,7 +11,8 @@ footer{
         font-size: 30px;
     }
     .socials{
-        z-index: 100;
+        z-index: 1000;
+        position: relative;
         .iconF{
             color: var(--colorText);
             margin: 0 20px;
@@ -26,9 +27,10 @@ footer{
     h1{
         font-size: 27vh;
         margin: -3%;
-        z-index: -1000 !important;
-        color: #F1F1F1;
+        z-index: 1;
+        color: #f1f1f1;
         mix-blend-mode: multiply;
+        position: relative;
     }
     .bottomSect{
         background-color: #333;
