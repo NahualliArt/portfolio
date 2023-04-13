@@ -6,7 +6,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import { useTranslation } from 'react-i18next';
 //icons
 import { IoLogoWhatsapp } from "react-icons/io";
-import { FaLinkedinIn, FaTiktok, FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn, FaTiktok, FaFacebookF, FaDribbble } from "react-icons/fa";
 
 function Footer() {
 
@@ -60,10 +60,18 @@ function Footer() {
           <Link to={'https://www.tiktok.com/@nahualliart'} target="_blank" rel="noopener noreferrer">
             <FaTiktok className='iconF'/>
           </Link>
+          <Link to={'https://www.facebook.com/nahualliart33'} target="_blank" rel="noopener noreferrer">
             <FaFacebookF className='iconF'/>
+          </Link>
+          <Link to={'https://www.linkedin.com/in/nahualli-art-368170269/'} target="_blank" rel="noopener noreferrer">
             <FaLinkedinIn className='iconF'/>
-            
+          </Link>
+          <Link to={'https://dribbble.com/nahualliart-team'} target="_blank" rel="noopener noreferrer">
+            <FaDribbble className='iconF'/>
+          </Link>
+          <Link to={'https://wa.link/9czyqo'} target="_blank" rel="noopener noreferrer">
             <IoLogoWhatsapp className='iconF'/>
+          </Link>
         </div>
         <h1>nahualli.art</h1>
         <div className='bottomSect'></div>
