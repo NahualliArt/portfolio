@@ -2,7 +2,7 @@
 import { ChangeEventHandler } from 'react';
 import { useContext } from 'react';
 import '../styles/footer.scss';
-
+import { HashLink as Link } from 'react-router-hash-link';
 import { useTranslation } from 'react-i18next';
 //icons
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -57,9 +57,12 @@ function Footer() {
     <footer>
         <h3>Find more at</h3>
         <div className='socials'>
+          <Link to="https://www.tiktok.com/@nahualliart" target="_blank" rel="noopener noreferrer">
+            <FaTiktok className='iconF'/>
+          </Link>
             <FaFacebookF className='iconF'/>
             <FaLinkedinIn className='iconF'/>
-            <FaTiktok className='iconF'/>
+            
             <IoLogoWhatsapp className='iconF'/>
         </div>
         <h1>nahualli.art</h1>
