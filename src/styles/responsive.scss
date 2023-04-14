@@ -262,12 +262,12 @@
         align-content: center;
         position: relative;
         img{
-            width: 600px!important;
+            width: 662px!important;
             height: auto;
             z-index: 1;
-            overflow-x: hidden;
-            position: absolute;
-            top: 60px;
+            overflow-x: auto;
+            position: fixed;
+            top: 76%;
             left: auto;
         }
     }
