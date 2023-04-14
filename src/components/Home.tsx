@@ -25,6 +25,9 @@ import illustraImg from '../assets/ilustra.png';
 import abiPic from '../assets/abi.png';
 import kitPic from '../assets/kitzia.png';
 import ausiPic from '../assets/ausi.png';
+import nekaPic from '../assets/neka.png';
+import iduPic from '../assets/idu.png';
+import galaPic from '../assets/gala.png';
 
 function Home() {
 
@@ -116,13 +119,6 @@ function Home() {
                         <p>{t("home.team.sandra-text")}</p>
                     </div>
                     <div className='member-card'>
-                        <img src={ausiPic} alt="A draw of Aurora R"/>
-                        <h3>Aurora R</h3>
-                        <p>{t("home.team.ausi-text")}</p>
-                    </div>
-                </div>
-                <div className='members-line'>
-                    <div className='member-card'>
                         <img src={kitPic} alt="A draw of Kitzia P"/>
                         <h3>Kitzia P</h3>
                         <p>{t("home.team.kitzia-text")}</p>
@@ -131,8 +127,36 @@ function Home() {
             </div>
 
             <div className='team-text'>
-                <h2>{t("home.team.title")}</h2>
-                <p>{t("home.team.text")}</p>
+                <div className='text'>
+                    <h2>{t("home.team.title")}</h2>
+                    <p>{t("home.team.text")}</p>
+                </div>
+            </div>
+        </div>
+        {/* MORE MEMBERS */}
+        <div className='more-members'>
+            <div className='members-line'>
+                <div className='member-card'>
+                    <img src={ausiPic} alt="A draw of Aurora R"/>
+                    <h3>Aurora R</h3>
+                    <p>{t("home.team.sandra-text")}</p>
+                </div>
+                <div className='member-card'>
+                    <img src={nekaPic} alt="A draw of Nekane"/>
+                    <h3>Nekane</h3>
+                    <p>{t("home.team.neka-text")}</p>
+                </div>
+                <div className='member-card'>
+                    <img src={iduPic} alt="A draw of Diego Idu"/>
+                    <h3>Diego Idu</h3>
+                    <p>{t("home.team.idu-text")}</p>
+                </div>
+                <div className='member-card'>
+                    <img src={galaPic} alt="A draw of Gala C"/>
+                    <h3>Gala C</h3>
+                    <p>{t("home.team.gala-text")}</p>
+                
+                </div>
             </div>
         </div>
 

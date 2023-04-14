@@ -119,11 +119,20 @@
        padding: 0 4%;
        margin-bottom: 4%;
        .members{
-          display: flex;
-          padding: 20px;
-          gap: 20px;
+         display: flex;
+         padding: 20px;
+         justify-content: space-around;
+         align-items: center;
+         width: 40%;
           .members-line{
+            display: flex;
             margin: 2%;
+            flex-direction: row;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 40px;
             .member-card{
                img{
                   width: 130px;
@@ -143,8 +152,44 @@
           }
        }
        .team-text{
-          width: 40vw;
+          width: 60%;
           color: var(--colorText);
+          .text{
+            padding: 0 4%;
+          }
+       }
+    }
+
+    .more-members{    
+      display: flex;
+      padding: 20px;
+      justify-content: space-around;
+      align-items: center;
+       .members-line{
+         display: flex;
+         margin: 2%;
+         flex-direction: row;
+         align-content: center;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+         gap: 40px;
+         .member-card{
+            img{
+               width: 130px;
+               height: auto;
+               margin: -30% 0 0 0;
+            }
+            text-align: center;
+            width: 180px;
+            height: 250px;
+            padding: 20px;
+            margin-bottom: 2%;
+            background-color: #F5F5F5;
+            box-shadow: 6px 4px 33px rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+         }
+
        }
     }
  

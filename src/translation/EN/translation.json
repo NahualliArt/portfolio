@@ -26,7 +26,10 @@
         "team" : {
             "sandra-text" : "Head designer, UI designer and freelancer",
             "kitzia-text" : "Front-end web designer and freelancer",
-            "ausi-text" : "Management y customer support",
+            "ausi-text" : "Management and customer support",
+            "neka-text" : "Illustration and design",
+            "idu-text" : "Illustration and design",
+            "gala-text" : "Content writting and text correction",
             "title" : "The team",
             "text" : "We're a diverse team of individuals with autism and disabilities. Rather than seeing our differences as a weakness, we turn them into a strength. We take pride in our unique perspectives and alternative, creative, and lateral thinking, which allow us to approach issues from unconventional angles. We differentiate ourselves by our ability to find innovative solutions to business challenges and real-world problems."
         },
