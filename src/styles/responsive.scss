@@ -261,13 +261,14 @@
         justify-content: center;
         align-content: center;
         position: relative;
+        margin-top: 15%;
         img{
-            width: 662px!important;
+            width: 650px!important;
             height: auto;
             z-index: 1;
             overflow-x: auto;
-            position: relative;
-            top: 76%;
+            position: absolute;
+            top: 20%;
             left: auto;
         }
     }
