@@ -1,14 +1,158 @@
 @import './App.scss';
 
-//TABLETS
-@media (max-width: 1080px) {
+//TABLETS GENERAL
+@media screen and (min-width: 700px) and (max-width:1000px) {
+
+    /*Home styles*/    
+    .heroT{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        margin-top: 5%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        h1{
+          font-size: 10vh;
+          margin-bottom: 14px;
+          color: var(--colorText);
+        }
+        .heroDis{
+          background-color: #EAEAEA;
+          border-radius: 15px;
+          height: 60vh;
+          padding: 1% 4%;
+          h4{
+             font-family: 'Lato', sans-serif;
+             font-weight: 400;
+             font-size: 20px;
+          }
+          button{
+             padding: 18px 28px;
+             background-color: #D9D9D9;
+             border-radius: 4%;
+             font-family: 'Lato', sans-serif;
+             font-weight: bold;
+             font-size: 16px;
+             border: none;
+          }
+        }
+       }
+
+
+    .welcomeT{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: -12%;
+        width: 100vw !important;
+        .welcome-text{
+           text-align: left;
+        }
+    }
+
+    .workT{
+        display: flex;
+        justify-content: center;
+        align-content: space-around;
+        text-align: center;
+        gap: 60px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 100%;
+        padding: 0%;
+        .section{
+            gap: 50px !important;
+            .work-card{
+                width: 40% !important;
+            }    
+        }
+    }
+
+    .teamT{
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+        margin-bottom: -12% !important;
+        .team-text{
+            width: 100% !important;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .members{
+            width: 100% !important;
+            flex-flow: row nowrap;
+        }
+    }
+
+    /*ANIMATIONS HOME styles*/
+    .heroT{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        margin-top: 5%;
+        img{
+            width: 113vw;
+            height: auto;
+            z-index: 1;
+            overflow-x: auto;
+            position: absolute;
+            top: -66px;
+            left: auto;
+        }
+    }
+
 
 }
 
+//IPAD - iPad Pro (12.9-inch)
+@media screen and (min-width: 1020px) and (orientation: portrait){
+    /*Home styles*/    
+    .heroTPro{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        margin-top: 5%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        .heroDis{
+          height: 50vh;
+          h4{
+            font-size: 28px !important;
+          }
+          button{
+             padding: 16px 26px !important;
+             font-size: 18px !important;
+          }
+        }
+    }
+    
+    /*ANIMATIONS HOME styles*/
+    .heroTPro{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        margin-top: 5%;
+        img{
+            width: 143vw;
+            height: auto;
+            z-index: 1;
+            overflow-x: auto;
+            position: absolute;
+            top: -125px;
+            left: auto;
+        }
+    }
+}
 
 
 //MOBILES
-@media (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 600px) {
 
 /*Header styles*/
     .header {
@@ -51,7 +195,8 @@
     }
 /*Home styles*/
     .home{
-        .hero{
+        .heroM{
+         margin-top: 60px;
          text-align: center;
          h1{
            font-size: 6vh;
@@ -67,9 +212,10 @@
            }
          }
         }
-        .welcome{
+        .welcomeM{
            display: flex;
            flex-flow: column wrap;
+           margin-top: -12%;
            .welcome-text{
               width: 70vw;
               text-align: center;
@@ -93,7 +239,7 @@
            }
         }
      
-        .work-section{
+        .workM{
            .section{
               display: flex;
               flex-flow: column wrap;
@@ -113,7 +259,7 @@
            }
         }
      
-        .team-section{
+        .teamM{
            flex-flow: column-reverse wrap;
            justify-content: center;
            align-content: center;
@@ -156,7 +302,7 @@
            }
         }
 
-        .more-members{
+        .moreM{
             display: flex;
             padding: 10px;
             gap: 40px;
@@ -182,7 +328,7 @@
             }
          }
      
-        .ctaSection{
+        .ctaM{
            display: flex;
            flex-flow: column wrap;
            justify-content: center;
