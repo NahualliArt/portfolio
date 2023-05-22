@@ -41,46 +41,14 @@ function Home() {
     let heroTitle = useRef(null);
     let heroDis = useRef(null);
     //Welcome
-    let mm = gsap.matchMedia();
-    let breakPoint = 1024;
-    let mobileBreakPoint = 480;
-
-    mm.add(
-        {
-            isDesktop: `(min-width: ${breakPoint}px) and (prefers-reduced-motion: no-preference)`,
-            isTablet: `(max-width: ${breakPoint - 1}px) and (min-width: ${mobileBreakPoint + 1}px) and (prefers-reduced-motion: no-preference)`,
-            isMobile: `(max-width: ${
-                mobileBreakPoint
-            }px) and (prefers-reduced-motion: no-preference)`
-	    },
-        (context) => {
-           let welcome =  gsap.timeline({
-                scrollTrigger: {
-                  trigger: ".welcome",
-                  start: "top top",
-                  end: "+=500",
-                  invalidateOnRefresh: true
-                }
-            });
-
-            welcome.from(".welcome", {
-                opacity: 100,
-                yPercent: -45,
-                duration: 0,
-                ease: "back.out(5)"})
-                .from(".welcome-text", {
-                    opacity: 0,
-                    xPercent: -50
-                  })
-                .to(".welcome-text", {
-                    opacity: 100,
-                    xPercent: 5,
-                    duration: 3,
-                    ease: "back.out(1.6)"
-                })
+    let welcome =  gsap.timeline({
+        scrollTrigger: {
+          trigger: ".welcome",
+          start: "top top",
+          end: "+=500",
+          invalidateOnRefresh: true
         }
-    );
-
+    });
 
     //Text Decoration
     let txtAnima = useRef(null);
@@ -103,7 +71,21 @@ function Home() {
         });
 
         //WELCOME
-       
+        welcome.from(".welcome", {
+        opacity: 100,
+        yPercent: -45,
+        duration: 0,
+        ease: "back.out(5)"})
+        .from(".welcome-text", {
+            opacity: 0,
+            xPercent: -50
+          })
+        .to(".welcome-text", {
+            opacity: 100,
+            xPercent: 5,
+            duration: 3,
+            ease: "back.out(1.6)"
+        })
 
         //TEXT ANIMATION
         gsap.fromTo(txtAnima.current,
@@ -119,8 +101,8 @@ function Home() {
         //SERVICES
         gsap.to(".uiCard", {
             duration: 2.5,
-            ease: "back.out(5)",
-            xPercent: 5,
+            ease: "back.out(12)",
+            xPercent: 6,
             delay: -.5,
             scrollTrigger: {
                 trigger: ".line1"
@@ -129,8 +111,8 @@ function Home() {
 
         gsap.to(".webCard", {
             duration: 2.5,
-            ease: "back.out(1.7)",
-            xPercent: -5,
+            ease: "back.out(12)",
+            xPercent: -6,
             delay: -.5,
             scrollTrigger: {
                 trigger: ".line1"
@@ -139,8 +121,8 @@ function Home() {
 
         gsap.to (".illCard", {
             duration: 2.5,
-            ease: "back.out(1.7)",
-            xPercent: 5,
+            ease: "back.out(12)",
+            xPercent: 6,
             delay: -.5,
             scrollTrigger: {
                 trigger: ".line2"
@@ -149,11 +131,47 @@ function Home() {
 
         gsap.to(".graCard", {
             duration: 2.5,
-            ease: "back.out(1.7)",
-            xPercent: -5,
+            ease: "back.out(12)",
+            xPercent: -6,
             delay: -.5,
             scrollTrigger: {
                 trigger: ".line2"
+            }
+        });
+
+        //TEAM
+        gsap.fromTo(".team-section",
+            {opacity: 0, yPercent: -10}, 
+            {
+                opacity: 100,
+                yPercent: 0,
+                delay: -.5,
+                duration: 2.5,
+                ease: "back.out(5)",
+                scrollTrigger: {
+                    trigger: ".team-section"
+                }
+        });
+
+        gsap.fromTo(".member-card", {opacity:0, scale:0}, {
+            opacity:100,
+            duration: 1.5,
+            scale: 1,
+            ease: "power1.out",
+            scrollTrigger: {
+                trigger: ".member-card",
+                start: "center center"
+            }
+        });
+
+        //CTA
+        gsap.fromTo(".ctaText", {xPercent: -50, opacity: 0}, {
+            opacity: 1,
+            xPercent: 0,
+            duration: 3,
+            ease: "back.out(1.6)",
+            scrollTrigger: {
+                trigger: ".ctaText"
             }
         });
 

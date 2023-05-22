@@ -130,6 +130,41 @@
           }
         }
     }
+
+    .workT{
+        display: flex;
+        justify-content: center;
+        align-content: space-around;
+        text-align: center;
+        gap: 60px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 100%;
+        padding: 0%;
+        .section{
+            gap: 50px !important;
+            .work-card{
+                width: 40% !important;
+            }    
+        }
+    }
+
+    .teamT{
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+        margin-bottom: -12% !important;
+        .team-text{
+            width: 100% !important;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .members{
+            width: 100% !important;
+            flex-flow: row nowrap;
+        }
+    }
+    
     
     /*ANIMATIONS HOME styles*/
     .heroTPro{
